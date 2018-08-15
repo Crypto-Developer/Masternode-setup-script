@@ -9,6 +9,8 @@ COIN_PATH='/usr/local/bin/'
 #COIN_REPO='Place Holder'
 COIN_TAR='https://github.com/Oxygencoin/oxygen/releases/download/Wallet_Linux/Wallet-oxygen-1.0.0-linux64.tar'
 COIN_NAME='oxygen'
+COIN_PORT=15470
+RPC_PORT=15460
 
 NODEIP=$(curl -s4 icanhazip.com)
 
@@ -82,6 +84,9 @@ function create_config() {
   cat << EOF > $CONFIGFOLDER/$CONFIG_FILE
 rpcuser=$RPCUSER
 rpcpassword=$RPCPASSWORD
+rpcallowip=127.0.0.1
+rpcport=$RPC_PORT
+port=$COIN_PORT
 listen=1
 server=1
 daemon=1
@@ -122,7 +127,6 @@ logtimestamps=1
 masternodeaddr=$NODEIP:$COIN_PORT
 EOF
 }
-
 
 function enable_firewall() {
   echo -e "Installing and setting up firewall to allow ingress on port ${GREEN}$COIN_PORT${NC}"
