@@ -204,6 +204,7 @@ Click "File Save"
 * Check the status of your masternode within the VPS by using the command below:
 
  `cd /usr/local/bin/
+ 
  ./oxygen-cli mnsync status`
 
 * You should see
