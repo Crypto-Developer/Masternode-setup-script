@@ -203,8 +203,8 @@ Click "File Save"
 ***step 4***
 * Check the status of your masternode within the VPS by using the command below:
 
-`cd /usr/local/bin/`
-`./oxygen-cli mnsync status`
+ `cd /usr/local/bin/
+ ./oxygen-cli mnsync status`
 
 * You should see
 
