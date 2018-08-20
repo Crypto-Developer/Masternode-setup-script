@@ -205,7 +205,7 @@ Click "File Save"
 
  `cd /usr/local/bin/`
  
- `./oxygen-cli mnsync status`
+ `./oxygen-cli masternode status`
 
 * You should see
 
