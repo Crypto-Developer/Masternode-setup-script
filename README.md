@@ -222,4 +222,4 @@ Any donation is highly appreciated
 **ETH**: 0xc749be094ed0f41ac516025e28048f0ad83dfe8b     
 **XRP**: rUocf1ixKzTuEe34kmVhRvGqNCofY1NJzV  
 **LTC**: LesbjqB4eoT99r3yukxqyEAeYBdUMmkPDR  
-**OXG**: oNXBrESwnUEddBqKE4sN96hWscwHtP8vjk
+**OXG**: oTUSKM6QxSCuTU68zdiAABGX5wQanWKyJP
